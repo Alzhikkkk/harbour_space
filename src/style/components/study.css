@@ -1,0 +1,245 @@
+.study{
+    display: flex;
+    gap: 150px;
+    margin-top: 150px;
+}
+
+.study-left{
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+    justify-content: space-between;
+    text-align: start;
+    border: 1px solid #DADADA;
+    padding: 25px 44px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+.study-left--scolarship h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    letter-spacing: -0.145455px;
+    
+    color: #685DC5;
+}
+
+.study-left--scolarship p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 24px;
+    /* or 50% */
+    margin-top: 25px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.436364px;
+
+    color: #535353;
+}
+
+
+.study-left--tuition {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.study-left--tuition::before{
+     content: "";
+     display: flex;
+     position: absolute;
+     width: 100%;
+     height: 1px;
+     background-color: #DADADA;
+     top: -60px;
+}
+
+.study-tuition--up{
+    display: flex;
+    gap: 60px;
+}
+
+.study-tuition--up i>h3{
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    letter-spacing: -0.16px;
+    
+    color: #685DC5;
+}
+
+.study-tuition--up i{
+    margin-top: 10px;
+    color: #535353;
+}
+
+
+.study-right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+}
+
+
+
+.study-right--commitment{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.commitment-study{
+    border: 1px solid #DADADA;
+    text-align: start;
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.commitment-study:last-child{
+    width: 90%;
+}
+
+.commitment-study h3{
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.145455px;
+
+    color: #685DC5;
+}
+
+
+
+.commitment-study h5{
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    /* identical to box height, or 135% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.185714px;
+
+    color: #6A6A6A;
+}
+
+.commitment-study p{
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: -0.16px;
+
+    color: #535353;
+    margin-top: 50px;
+    position: relative;
+}
+
+.commitment-study p::before{
+    content: "";
+    background-color: #535353;
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: -10px;
+}
+
+.graduation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+.study-contract h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #535353;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.study-contract .graduation::before{
+    content: "";
+    display: flex;
+    align-items: center;
+    background-color: #535353;
+    position: absolute;
+    height: 1px;
+    width: 30%;
+    left: 0%;
+    /* right: 60.69%; */
+    top: 35%;
+    
+}
+
+.study-contract .graduation::after{
+    content: "";
+    display: flex;
+    align-items: center;
+    background-color: #535353;
+    position: absolute;
+    height: 1px;
+    width: 30%;
+    right: 0%;
+    /* left: 65%; */
+    top: 35%;
+}
+
+
+@media (max-width: 1266px) {
+    .study{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .study-left{
+        width: 60%;
+    }
+     
+    .study-right{
+        width: 60%;
+    }
+    .study-right--commitment{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .commitment-study{
+        width: 90%;
+    }
+
+    .graduation{
+        margin-left: 20px;
+    }
+}

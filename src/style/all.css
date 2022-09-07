@@ -1,0 +1,7 @@
+
+@import url('./vendor/reset.css');
+
+@import url('./components/header.css');
+@import url('./components/interaction.css');
+@import url('./components/about.css');
+@import url('./components/study.css');
