@@ -1,5 +1,6 @@
 import './App.css';
 import nav from './assets/nav.svg'
+import Slider from './components/slider';
 import Main from './page/main';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <div className="header-nav"><img src={nav} alt="Nav"/></div>
       </header>
       <Main></Main>
+      <Slider></Slider>
     </div>
   );
 }

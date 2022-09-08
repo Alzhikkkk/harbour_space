@@ -16,7 +16,7 @@ function Interaction() {
                <h3>Interaction Design Apprenticeship</h3>
                <span className='interaction-left--logo'>
                      <img src={logo} alt="logo"/>
-                     <p>Powered By: <h1>ZeptoLab</h1></p>
+                     <p>Powered By: <i>ZeptoLab</i></p>
                 </span>
            </div>
 
@@ -26,7 +26,7 @@ function Interaction() {
                         <p>
                         Harbour.Space has partnered with SCG to empower driven talent and eliminate the barriers to accessing exceptional education and career opportunities through a Masters Fellowship. 
                         </p>
-                        <p><h1>Position</h1>: Marketing Perfomance</p>
+                        <p><i>Position</i>: Marketing Perfomance</p>
                 </span>
                 
                 <div className='interaction-right--all'>

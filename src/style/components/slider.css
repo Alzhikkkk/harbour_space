@@ -1,0 +1,161 @@
+
+.slider{
+    margin-top: 150px;
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+
+.slider-item{
+      display: flex !important;
+      flex-direction: column;
+      gap: 50px;
+      border: 1px solid #DADADA;
+      padding: 30px 40px;
+      box-sizing: border-box;
+      position: relative;
+}
+
+
+.item-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.item-header--user{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    gap: 30px;
+}
+
+.item-header--user img{
+    border-radius: 50%;
+}
+
+.slider-body{
+    padding: 0 50px;
+    text-align: start;
+}
+
+.slider-body p{
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    /* or 135% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.185714px;
+
+    color: #6A6A6A;
+    margin-bottom: 30px;
+}
+
+.slider-body span{
+    margin-top: 15px;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.16px;
+
+    color: #535353;
+}
+
+
+.slick-slide{
+    width: 529px;
+    box-sizing: border-box;
+    margin: 0 50px;
+}
+
+.slick-next{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: 45px;
+}
+
+.slick-prev{
+    background-color: #fff;
+    z-index: 99;
+    left: 40px;
+    
+}
+
+.slick-next:hover, .slick-next:focus, .slick-prev:focus, .slick-prev:focus{
+    background: #fff;
+    color: #fff !important;
+    outline: inherit;
+}
+
+.slick-next::before, .slick-prev::before{
+    color: #000;
+    font-size: 27px;
+}
+
+.slider-arrows{
+    position: absolute;
+    display: none;
+    flex-direction: row;
+    bottom: 30px;
+    right: 50px;
+}
+
+.slider-arrows span img{
+    width: 20px;
+}
+
+.slider-arrows span:first-child img{
+    transform: rotate(180deg); 
+    
+}
+
+.slider-arrows span{
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #535353;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    align-items: center;
+}
+
+@media (max-width: 1477px) {
+
+    .slider-arrows{
+        display: flex;
+    }
+    
+    .slick-next{
+        bottom: 0;
+        bottom: 90px;
+        right: 165px;
+        left: inherit;
+        top: inherit;
+        opacity: 0;
+        /* z-index: -1;  */
+    }
+
+    .slick-prev{
+        top: 75%;
+        left: inherit;
+        bottom: 90px;
+        right: 220px;
+        left: inherit;
+        top: inherit;
+        opacity: 0;
+        /* z-index: -1; */
+    }
+}
