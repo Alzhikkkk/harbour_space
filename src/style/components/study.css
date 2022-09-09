@@ -111,9 +111,7 @@
     flex-direction: column;
 }
 
-.commitment-study:last-child{
-    width: 90%;
-}
+
 
 .commitment-study h3{
     font-family: 'Apercu Pro';
@@ -216,6 +214,9 @@
     top: 35%;
 }
 
+.grad{
+    width: 100% !important;
+}
 
 @media (max-width: 1266px) {
     .study{
@@ -236,7 +237,11 @@
     }
 
     .commitment-study{
-        width: 90%;
+        width: 100%;
+    }
+
+    .grad{
+        width: 100% !important;
     }
 
     .study-contract .graduation::before{
@@ -247,5 +252,11 @@
     .study-contract .graduation::after{
         width: 23%;
         right: 3%;
+    }
+}
+
+@media(max-width: 540px){
+    .study-left{
+        width: 80%;
     }
 }

@@ -51,7 +51,7 @@ function Study() {
                   <span className="graduation">
                     <h1>Graduation</h1>
                   </span>
-                    <span className='commitment-study'>
+                    <span className='commitment-study grad'>
                            <h3>A full-time contract</h3>
                            <h5>1 Year / Full-Time</h5>
                            <p>You’ll be guaranteed a 1 year contract with SCG upon graduation. </p>
