@@ -27,7 +27,7 @@ function Slider() {
                     </span>
                 </div>
 
-                <div class="slider-arrows">
+                <div className="slider-arrows">
                     <span>
                         <img src={arrow} alt="" />
                     </span>
@@ -57,7 +57,7 @@ function Slider() {
                     </span>
                 </div>
 
-                <div class="slider-arrows">
+                <div className="slider-arrows">
                     <span>
                         <img src={arrow} alt="" />
                     </span>
@@ -87,7 +87,7 @@ function Slider() {
                     </span>
                 </div>
 
-                <div class="slider-arrows">
+                <div className="slider-arrows">
                     <span>
                         <img src={arrow} alt="" />
                     </span>
@@ -117,7 +117,7 @@ function Slider() {
                     </span>
                 </div>
 
-                <div class="slider-arrows">
+                <div className="slider-arrows">
                     <span>
                         <img src={arrow} alt="" />
                     </span>

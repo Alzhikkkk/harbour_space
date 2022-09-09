@@ -1,7 +1,8 @@
 import './App.css';
 import nav from './assets/nav.svg'
+import Question from './components/question';
 import Slider from './components/slider';
-import Main from './page/main';
+import Main, { Container } from './page/main';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </header>
       <Main></Main>
       <Slider></Slider>
+      <Container><Question /></Container>
     </div>
   );
 }

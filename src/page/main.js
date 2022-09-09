@@ -3,7 +3,7 @@ import About from '../components/about';
 import Interaction from '../components/interaction';
 import Study from '../components/study';
 
-const Container = styled.main`
+export const Container = styled.main`
     width:100%;
     padding: 0 15%;
     box-sizing:border-box;

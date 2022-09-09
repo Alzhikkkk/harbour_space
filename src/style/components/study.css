@@ -239,7 +239,13 @@
         width: 90%;
     }
 
-    .graduation{
-        margin-left: 20px;
+    .study-contract .graduation::before{
+         width: 25%;
+         left: 2%;
+    }
+
+    .study-contract .graduation::after{
+        width: 23%;
+        right: 3%;
     }
 }
